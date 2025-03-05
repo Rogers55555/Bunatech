@@ -1,0 +1,61 @@
+/* Mengatur tampilan dasar */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #8a2be2, #ff69b4);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Efek fade-in saat halaman dimuat */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Kotak transparan dengan efek blur */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 300px;
+}
+
+/* Input kode game */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Tombol dengan efek glow */
+.glow-button {
+    background: linear-gradient(90deg, #ff1493, #ff69b4);
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgba(255, 20, 147, 0.5);
+}
+
+.glow-button:hover {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    box-shadow: 0px 0px 25px rgba(255, 20, 147, 0.8);
+    transform: scale(1.05);
+}
