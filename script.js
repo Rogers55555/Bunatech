@@ -3,10 +3,10 @@ function gabungGame() {
     console.log("Kode yang dimasukkan:", kodeGame); // Debugging
 
     if (kodeGame === "55555") {
-        alert("Kode benar! Selamat datang di BunaQuizziz.");
-        window.location.href = "game.html";
+        alert("Kode benar! Mengarahkan ke beranda...");
+        window.location.href = "beranda.html"; // Redirect ke halaman baru
     } else {
         alert("Kode salah! Silakan coba lagi.");
-        document.getElementById("kodeGame").value = ""; // Mengosongkan input jika salah
+        document.getElementById("kodeGame").value = ""; // Kosongkan input jika salah
     }
 }
