@@ -8,5 +8,6 @@ function gabungGame() {
         window.location.href = "game.html";
     } else {
         alert("Kode salah! Silakan coba lagi.");
+        document.getElementById("kodeGame").value = ""; // Mengosongkan input jika salah
     }
 }
