@@ -1,0 +1,20 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - BunaQuizziz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="game.html">Mulai Quiz</a></li>
+            <li><a href="about.html">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <h1>Selamat Datang di BunaQuizziz!</h1>
+    <p>Silakan pilih menu di atas untuk memulai kuis atau melihat informasi lainnya.</p>
+</body>
+</html>
